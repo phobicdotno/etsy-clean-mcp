@@ -1,0 +1,10 @@
+# Copy to ~/.config/etsy-clean-mcp/config.toml and chmod 600 it.
+# Values from the "Your Apps" page on etsy.com/developers.
+keystring = "your-keystring"
+shared_secret = "your-shared-secret"
+
+# Must match a callback URL registered for your app on Etsy, character for character.
+redirect_uri = "http://localhost:3003/callback"
+
+# Images can only be uploaded from inside this folder.
+upload_dir = "~/Etsy/upload"
