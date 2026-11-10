@@ -1,10 +1,10 @@
 {
   "name": "etsy-clean-mcp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Small MCP server for managing your own Etsy shop through the Etsy Open API v3.",
   "type": "module",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bin": {
     "etsy-clean-mcp": "dist/index.js"
   },

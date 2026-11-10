@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.3
+- Free to use under the MIT licence
+
 ## 0.1.2
 - Status warns when the settings file can be read by others
 

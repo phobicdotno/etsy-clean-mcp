@@ -150,3 +150,7 @@ npm run build
 the enum values used by the tools, and the fields the write tools send, against
 `spec/etsy-openapi-v3.json`. To refresh the spec, download
 `https://www.etsy.com/openapi/generated/oas/3.0.0.json` over it and run the tests.
+
+## Licence
+
+MIT, see [LICENSE](LICENSE).
