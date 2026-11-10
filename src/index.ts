@@ -53,6 +53,13 @@ function status(): number {
   out(`App keys:       ${config.keystring && config.sharedSecret ? "set" : "MISSING (see README)"}`);
   out(`Redirect URI:   ${config.redirectUri}`);
   out(`Upload folder:  ${config.uploadDir}`);
+  try {
+    if ((fs.statSync(config.configFile).mode & 0o077) !== 0) {
+      out(`Warning:        ${config.configFile} is readable by other users; run: chmod 600 ${config.configFile}`);
+    }
+  } catch {
+    /* no config file */
+  }
   const t = new TokenStore(config.tokensFile).load();
   if (!t) {
     out("Login:          not logged in (run: etsy-clean-mcp login)");

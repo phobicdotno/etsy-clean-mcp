@@ -84,7 +84,7 @@ node dist/index.js status   # who is logged in and when the tokens expire
 
 ### 5. Add it to your MCP client
 
-Claude Code:
+For example:
 
 ```sh
 claude mcp add etsy -- node /home/karstein/src/etsy-clean-mcp/dist/index.js

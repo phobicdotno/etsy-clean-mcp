@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.2
+- Status warns when the settings file can be read by others
+
 ## 0.1.1
 - Setup guide and an example settings file
 
